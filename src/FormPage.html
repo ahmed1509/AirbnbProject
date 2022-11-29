@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<h2>Personalize Your Experience</h2>
+<h6>Airbnb Search Form</h6>
+<form>
+    <p>Who are you traveling with?</p>
+    <div class="form-check">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" id="solo" name="TravelingWithWho" value="solo">
+        <label class="form-check-label" for="solo">SOLO</label> &nbsp;&nbsp;
+        </div>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" id="KIDS" name="TravelingWithWho" value="KIDS">
+        <label class="form-check-label" for="KIDS">KIDS</label> &nbsp;&nbsp;
+        </div>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" id="Friends" name="TravelingWithWho" value="Friends">
+        <label class="form-check-label" for="Friends">FRIENDS</label><br>
+        </div>
+
+        <p>Do you prefer staying close to the airport?</p>
+        <input class="form-check-input" type="radio" id="yes" name="" value="yes">
+        <label for="yes">YES</label>
+        <input class="form-check-input" type="radio" id="no" name="CloseToTheAirport" value="no">
+        <label for="no">NO</label><br>
+
+        <p>Are you the adventure type?</p>
+        <input class="form-check-input"  type="radio" id="yes1" name="" value="yes">
+        <label for="yes1">YES</label>
+        <input class="form-check-input" type="radio" id="no1" name="AdventureType" value="no">
+        <label for="no1">NO</label><br>
+
+        <p>Prefer staying close to Tourist Areas?</p>
+        <input class="form-check-input" type="radio" id="yes2" name="" value="yes">
+        <label for="yes2">YES</label>
+        <input class="form-check-input" type="radio" id="no2" name="TouristAreas" value="no">
+        <label for="no2">NO</label><br>
+
+        <p>Nightlife or Daylife</p>
+        <input class="form-check-input" type="radio" id="NightLife" name="NightlifeOrDaylife" value="yes">
+        <label for="NightLife">YES</label>
+        <input class="form-check-input" type="radio" id="no3" name="TravelingWithWho" value="no">
+        <label for="no3">NO</label><br>
+    </div>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+
+        <div>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</div>
+</div>
+
+</body>
+</html>

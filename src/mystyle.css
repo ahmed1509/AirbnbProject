@@ -1,0 +1,57 @@
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  font: Arial;
+  margin-bottom: 12px;
+}
+#HeaderTitle {
+  width: 50%;
+  font-size: 32px;
+  padding: 12px 20px 12px 40px;
+  border: 2px solid #ddd;
+  text-align: center;
+  font: Arial;
+  margin-bottom: 12px;
+}
+#button1 {
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #F8F8F;
+  font: Arial;
+
+}
+body {
+            text-align: center;
+        }
+#button2 {
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #F8F8F;
+  font: Arial;
+
+}
+#HelpFind {
+border: rounded;
+width: 50%;
+font-size: 22px;
+padding: 12px 20px 12px 40px;
+margin-bottom: 12px;
+text-align: center;
+font: Arial;
+}
